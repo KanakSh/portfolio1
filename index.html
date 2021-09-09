@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive portfolio website</title>
+    <!-- font-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+
+<header>
+    <div class="user">
+        <img src="static/user's pic.jpg" alt="">
+        <h3 class="name">Kanak Sharma</h3>
+        <p class="post">front end developer</p>
+    </div>
+   <nav class="navbar">
+        <ul>
+            <li><a href="#home">home</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#education">education</a></li>
+            <li><a href="#skills">skills</a></li>
+            <li><a href="#contact">contact</a></li>
+            
+        </ul>
+    </nav>
+
+</header>
+
+
+
+<div class="dropdown">
+<button class="dropbtn">menu
+<i class="fas fa-user"></i><button>
+<div class="dropdown-content" style="right:0">
+<a href="#home" >home</a>
+<a href="#about">about</a>
+<a href="#education">education</a>
+<a href="#skills">skills</a>
+<a href="#contact">contact</a>
+</div>
+</div>
+</div>
+
+<!--home-->
+<section class="home" id="home">
+<div class="user">
+        <img src="static/user's pic.jpg" alt="user's pic">
+</div>
+<h3> hola !</h3>
+<h1>I'm <span>Kanak Sharma</span></h1> 
+<marquee behavior="slide" direction="left" scrollamount="40"><p> This is my personal PORTFOLIO website<br> I am a front-end developer<br>I beleive that you have never arrived enough to explore new opportunities<br>  </p></marquee>
+<a href="#about" ><button class="btn">about me <i class="fas fa-user"></i></button></a>
+</section>
+<!--end of home-->
+<!--about-->
+<section class="about" id="about">
+
+<h1 class="heading"> <span>about</span> me </h1>
+
+<div class="row">
+
+    <div class="info">
+        <marquee behavior="slide" direction="left" scrollamount="40">
+
+        <h3> <span> name : </span> Kanak Sharma </h3>
+        <h3> <span> age : </span> 20 </h3>
+        <h3> <span> education : </span> persuing Bachelors in Technology </h3>
+        <h3> <span> branch : </span> Electrical </h3>
+        <h3> <span> domain : </span> front end development </h3>
+        <h3> <span> language : </span> English/hindi </h3>
+        <h3> <span> extracurricular activities : </span> Executive member<br> of Dance club NITH(RHYTHMEECZ) </h3>
+        <h3> <span> interests/hobbies : </span> dancing, swimming<br>, travelling </h3>
+        </marquee>
+    </div>
+
+    <div class="counter">
+        <marquee behavior="slide" direction="down" scrollamount="40">
+        <div class="box">
+            <span>2</span>
+            <h3>porject completed</h3>
+        </div>
+        </marquee>
+        <marquee behavior="slide" direction="up" scrollamount="40">
+        <div class="box">
+            <span>5</span>
+            <h3>Maths Olympiards won</h3>
+        </div>
+        </marquee>
+
+        
+
+    </div>
+
+</div>
+
+</section>
+
+
+
+<!-- education section starts  -->
+
+<section class="education" id="education">
+
+<h1 class="heading"> my <span>education</span> </h1>
+
+<div class="box-container">
+
+    <div class="box">
+        <span>Schooling</span>
+        <h3>Secondary School</h3>
+        <p>I completed my schooling from Dr. Virendra Swarup Educatio Center, Panki, Kanpur in year 2018 with "89%" </p><br>
+        <h3>High school</h3>
+        <p>I completed my schooling from Dr. Virendra Swarup Educatio Center, Panki, Kanpur in year 2016 with "95%"</p>
+    </div><br>
+
+    <div class="box">
+        <span>2019-23</span>
+        <h3>National Institute of Technology Hamirpur</h3>
+        <p>I am persuing my Bachelors from National Institute of Technology Hamirpur in Electrical branch</p>
+    </div>
+
+    
+</div>
+
+</section>
+<div>
+<section class="skills" id="skills">
+
+<section class="portfolio" id="portfolio">
+
+<h1 class="heading"> my <span>Skills</span> </h1>
+<h2 align="center"> Technical Skills </h2>
+
+<div class="box-container">
+
+    <div class="box">
+        <img src="static/html css.jpg" alt="image">
+        <h4>html/css</h4>
+    </div>
+
+    <div class="box">
+        <img src="static/django.jpg" alt="">
+        <h4>django</h4>
+    </div>
+
+    <div class="box">
+        <img src="static/python.jpg" alt="">
+        <h4>python</h4>
+    </div>
+
+    <div class="box">
+        <img src="static/cpp.jpg" alt="">
+        <h4>cpp</h4>
+    </div>
+
+    <div class="box">
+        <img src="static/matlab.jpg" alt="">
+        <h4>MATLAB</h4>
+    </div>
+
+    </div>
+
+</section>
+<div class="grid-container">
+<div class="grid-item" align="left">
+<img class="nt" src="static/non technical.jpg" width="97%">
+</div>
+<div class="grid-item" align="right">
+<h2> Non-Technical Skills </h2>
+<h4>Communication</h4>
+<h4>Time Management</h4>
+<h4>Adaptability</h4>
+<h4>Problem Solving</h4>
+<h4>Organization</h4>
+</div>
+</div>
+</section>
+
+
+</div>
+<section class="contact" id="contact">
+
+<h1 class="heading"> <span>contact</span> me </h1>
+<div>
+    <h4>email:kanaksharmaks142001@gmail.com</h4>
+    <h4>linkedin:<a href="https://www.linkedin.com/in/kanak-sharma-3427091aa">www.linkedin.com/in/kanak-sharma-3427091aa</a></h4>
+    <h4>github:KanakSh</h4>
+    <h4>place:Kanpur, Uttar Pradesh </h4>
+    </div>
+</section>
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<script src="js/script.js"></script>
+
+
+</body>
+</html>
